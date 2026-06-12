@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>MoeKoe 桌面歌词</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main>
+    <header>
+      <div>
+        <h1>MoeKoe 桌面歌词</h1>
+        <p id="summary">正在连接</p>
+      </div>
+      <button id="refreshBtn" type="button">刷新</button>
+    </header>
+
+    <section class="panel">
+      <div class="row">
+        <span>歌词程序</span>
+        <strong id="desktopStatus">-</strong>
+      </div>
+      <div class="row">
+        <span>MoeKoe API</span>
+        <strong id="moekoeStatus">-</strong>
+      </div>
+      <div class="row">
+        <span>当前歌词</span>
+        <strong id="lyricStatus">-</strong>
+      </div>
+      <div class="row">
+        <span>窗口状态</span>
+        <strong id="lockStatus">-</strong>
+      </div>
+    </section>
+
+    <section class="controls">
+      <button id="fontDownBtn" type="button">字号 -</button>
+      <button id="fontUpBtn" type="button">字号 +</button>
+      <button id="lockBtn" type="button">锁定</button>
+      <button id="unlockBtn" type="button">解锁</button>
+    </section>
+
+    <button id="reconnectBtn" class="secondary" type="button">重新连接歌词程序</button>
+
+    <section class="guide">
+      <h2>使用前确认</h2>
+      <ol>
+        <li>在 MoeKoe 设置中开启 API 模式。</li>
+        <li>在插件管理页授权本地程序。</li>
+        <li>播放有歌词的歌曲后会自动显示桌面歌词。</li>
+        <li>锁定后如需拖动窗口，请先在这里解锁。</li>
+      </ol>
+    </section>
+  </main>
+
+  <script src="popup.js"></script>
+</body>
+</html>
