@@ -1,6 +1,6 @@
-# MoeKoe 桌面歌词
+# MoeKoe 桌面歌词 (Windows)
 
-一个 MoeKoe Music 第三方桌面歌词插件。
+一个 MoeKoe Music 第三方Windows桌面歌词插件。
 
 第三方桌面歌词程序来自 [lyric_exe.exe](https://github.com/kuodafu/lyrics) 部分功能未完善,有问题请去压力作者
 
